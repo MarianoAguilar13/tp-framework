@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.root {
+  background-color: black;
+}
+
+.contenedorForm {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.formTitle {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  width: 310px;
+}
+
+.formFieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-size: 13px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.formInput {
+  width: 100%;
+  height: 45px;
+  border: yellowgreen 5px outset;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.formButton {
+  width: 100%;
+  height: 45px;
+  background-color: yellowgreen;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+.formButtonSection {
+  width: 100%;
+}
